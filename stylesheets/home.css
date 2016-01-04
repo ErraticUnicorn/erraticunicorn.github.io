@@ -215,8 +215,9 @@ figure {
  */
 /* line 244, _normalize.scss */
 fieldset {
-
-}
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
 
 /*
  * 1. Corrects color not being inherited in IE 8/9.
@@ -346,9 +347,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 4, site.css.scss */
-body {
-  background: white;
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+/* line 5, home.css.scss */
+.intro {
+  background: url("../images/tree.jpg") no-repeat center center fixed;
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 18, home.css.scss */
+.wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 40px;
+  margin: 100px auto;
+  margin-top: 1000px;
+  color: #333; }
