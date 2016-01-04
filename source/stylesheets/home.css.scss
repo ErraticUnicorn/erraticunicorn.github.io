@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "normalize";
+
+
+.intro {
+  background: image-url('tree.jpg') no-repeat center center fixed;
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 40px;
+  margin: 100px auto;
+  margin-top: 1000px;
+  color: #333;
+  .navbar {
+
+  }
+}
